@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMFTI - Badan Mahasiswa Fakultas Teknologi Informasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzQjgyRjYiLz4KPHRleHQgeD0iMjAiIHk9IjI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCI+Qk08L3RleHQ+Cjwvc3ZnPgo="
+                    alt="BMFTI Logo" class="logo">
+                <span class="logo-text">BMFTI</span>
+            </div>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#organization" class="nav-link">Struktur</a></li>
+                <li><a href="#events" class="nav-link">Kegiatan</a></li>
+                <li><a href="#register" class="nav-link">Daftar</a></li>
+                <li class="theme-toggle-container">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">BMFTI</span>
+                    <br>Badan Mahasiswa Fakultas Teknologi Informasi
+                </h1>
+                <p class="hero-subtitle">Membangun masa depan teknologi bersama mahasiswa yang inovatif dan berkarakter
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Tentang Kami
+                    </a>
+                    <a href="#register" class="btn btn-secondary">
+                        <i class="fas fa-user-plus"></i>
+                        Bergabung
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <span>Website Development</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-robot"></i>
+                    <span>AI & ML</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile Dev</span>
+                </div>
+                <div class="floating-card card-4">
+                    <i class="fas fa-cloud"></i>
+                    <span>Cloud Tech</span>
+                </div>
+                <div class="floating-card card-5">
+                    <i class="fas fa-pencil"></i>
+                    <span>UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang BMFTI</h2>
+                <p class="section-subtitle">Organisasi mahasiswa yang berdedikasi untuk mengembangkan potensi di bidang
+                    teknologi informasi</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Visi Kami</h3>
+                    <p>Menjadi organisasi mahasiswa terdepan dalam menghasilkan lulusan teknologi informasi yang
+                        kompeten, inovatif, dan berintegritas tinggi.</p>
+
+                    <h3>Misi Kami</h3>
+                    <ul>
+                        <li>Mengembangkan soft skill dan hard skill mahasiswa di bidang IT</li>
+                        <li>Menjadi wadah kolaborasi dan networking antar mahasiswa</li>
+                        <li>Mengadakan kegiatan yang mendukung perkembangan teknologi</li>
+                        <li>Membangun karakter kepemimpinan dan entrepreneur</li>
+                    </ul>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">Anggota Aktif</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number" data-target="45">0</div>
+                        <div class="stat-label">Event per Tahun</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Prestasi</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="stat-number" data-target="30">0</div>
+                        <div class="stat-label">Partnership</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Structure -->
+    <section id="organization" class="organization">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Struktur Organisasi</h2>
+                <p class="section-subtitle">Tim pengurus BMFTI periode 2024-2025</p>
+            </div>
+
+            <div class="org-structure">
+                <!-- Ketua -->
+                <div class="org-level president-level">
+                    <div class="member-card president-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMzMzIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkE8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Ahmad Rizki">
+                        </div>
+                        <div class="member-info">
+                            <h3>Ahmad Rizki Pratama</h3>
+                            <p class="position">Ketua Umum</p>
+                            <p class="department">Teknik Informatika '22</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wakil Ketua -->
+                <div class="org-level vice-level">
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjNjY2Ii8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPlM8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Sari Dewi">
+                        </div>
+                        <div class="member-info">
+                            <h3>Sari Dewi Kusuma</h3>
+                            <p class="position">Wakil Ketua</p>
+                            <p class="department">Sistem Informasi '22</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divisi -->
+                <div class="org-level divisions-level">
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjM0I4MkY2Ii8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkI8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Budi Santoso">
+                        </div>
+                        <div class="member-info">
+                            <h3>Budi Santoso</h3>
+                            <p class="position">Sekretaris</p>
+                            <p class="department">Teknik Informatika '23</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjMTBCOTgxIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkQ8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Diana Putri">
+                        </div>
+                        <div class="member-info">
+                            <h3>Diana Putri Lestari</h3>
+                            <p class="position">Bendahara</p>
+                            <p class="department">Sistem Informasi '23</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjRkY3MDQzIi8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkU8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Eko Nugroho">
+                        </div>
+                        <div class="member-info">
+                            <h3>Eko Nugroho</h3>
+                            <p class="position">Div. Acara</p>
+                            <p class="department">Teknik Informatika '23</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjUwIiBmaWxsPSIjOEI1Q0Y2Ii8+Cjx0ZXh0IHg9IjUwIiB5PSI1OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkY8L3RleHQ+Cjwvc3ZnPgo="
+                                alt="Fitri Handayani">
+                        </div>
+                        <div class="member-info">
+                            <h3>Fitri Handayani</h3>
+                            <p class="position">Div. Humas</p>
+                            <p class="department">Sistem Informasi '23</p>
+                            <div class="member-social">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kegiatan Kami</h2>
+                <p class="section-subtitle">Program dan acara yang telah dan akan kami selenggarakan</p>
+            </div>
+
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-overlay">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">15 Maret 2025</div>
+                        <h3>Hackathon 2025</h3>
+                        <p>Kompetisi pengembangan aplikasi 48 jam dengan tema Smart City Solution</p>
+                        <div class="event-tags">
+                            <span class="tag">Programming</span>
+                            <span class="tag">Competition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-overlay">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">22 April 2025</div>
+                        <h3>Seminar AI</h3>
+                        <p>Seri seminar dengan pembicara dari industri teknologi ternama</p>
+                        <div class="event-tags">
+                            <span class="tag">Seminar</span>
+                            <span class="tag">Industry</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="event-overlay">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">10 Mei 2025</div>
+                        <h3>Workshop UI/UX</h3>
+                        <p>Pelatihan praktis pengembangan antarmuka pengguna dan pengalaman pengguna</p>
+                        <div class="event-tags">
+                            <span class="tag">Workshop</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-card upcoming">
+                    <div class="event-image">
+                        <div class="event-overlay">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="upcoming-badge">Upcoming</div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-date">25 Agustus 2025</div>
+                        <h3>Open Recruitment</h3>
+                        <p>Penerimaan anggota baru BMFTI periode 2025-2026</p>
+                        <div class="event-tags">
+                            <span class="tag">Recruitment</span>
+                            <span class="tag">New Member</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Bergabung dengan BMFTI</h2>
+                <p class="section-subtitle">Daftarkan diri Anda dan jadilah bagian dari komunitas teknologi yang
+                    inovatif</p>
+            </div>
+
+            <div class="register-content">
+                <div class="register-info">
+                    <h3>Mengapa Bergabung?</h3>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Networking dengan mahasiswa dan profesional IT</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Akses ke workshop dan seminar eksklusif</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Kesempatan magang dan kerja di perusahaan partner</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pengembangan soft skill dan leadership</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sertifikat untuk setiap kegiatan yang diikuti</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="register-form-container">
+                    <form class="register-form" id="registerForm">
+                        <h3>Form Pendaftaran</h3>
+
+                        <div class="form-group">
+                            <label for="fullName">Nama Lengkap *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                            <span class="error-message" id="fullNameError"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">No. Telepon *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nim">NIM *</label>
+                                <input type="text" id="nim" name="nim" required>
+                                <span class="error-message" id="nimError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="major">Program Studi *</label>
+                                <select id="major" name="major" required>
+                                    <option value="">Pilih Program Studi</option>
+                                    <option value="teknik-informatika">Teknik Informatika</option>
+                                    <option value="sistem-informasi">Sistem Informasi</option>
+                                    <option value="teknologi-informasi">Teknologi Informasi</option>
+                                    <option value="rekayasa-perangkat-lunak">Rekayasa Perangkat Lunak</option>
+                                </select>
+                                <span class="error-message" id="majorError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="semester">Semester Saat Ini *</label>
+                            <select id="semester" name="semester" required>
+                                <option value="">Pilih Semester</option>
+                                <option value="1">Semester 1</option>
+                                <option value="2">Semester 2</option>
+                                <option value="3">Semester 3</option>
+                                <option value="4">Semester 4</option>
+                                <option value="5">Semester 5</option>
+                                <option value="6">Semester 6</option>
+                                <option value="7">Semester 7</option>
+                                <option value="8">Semester 8</option>
+                            </select>
+                            <span class="error-message" id="semesterError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">Bidang Minat *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="web-development">
+                                    <span class="checkmark"></span>
+                                    Web Development
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="mobile-development">
+                                    <span class="checkmark"></span>
+                                    Mobile Development
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="data-science">
+                                    <span class="checkmark"></span>
+                                    Data Science
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="ai-ml">
+                                    <span class="checkmark"></span>
+                                    AI & Machine Learning
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="cybersecurity">
+                                    <span class="checkmark"></span>
+                                    Cybersecurity
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="interest" value="ui-ux">
+                                    <span class="checkmark"></span>
+                                    UI/UX Design
+                                </label>
+                            </div>
+                            <span class="error-message" id="interestError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interest">Divisi yang diminati *</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="bakat-dan-minat">
+                                    <span class="checkmark"></span>
+                                    Bakat dan Minat
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="pengabdian-masyarakat">
+                                    <span class="checkmark"></span>
+                                    Pengabdian Masyarakat
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="media-informasi">
+                                    <span class="checkmark"></span>
+                                    Media Informasi
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="akademik">
+                                    <span class="checkmark"></span>
+                                    Akademik
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="keuangan-dan-kerjasama">
+                                    <span class="checkmark"></span>
+                                    Keuangan dan Kerjasama
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="hubungan-masyarakat">
+                                    <span class="checkmark"></span>
+                                    Hubungan Masyarakat
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="divisi" value="kesekretariatan">
+                                    <span class="checkmark"></span>
+                                    Kesekretariatan
+                                </label>
+                            </div>
+                            <span class="error-message" id="divisiError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="motivation">Motivasi Bergabung *</label>
+                            <textarea id="motivation" name="motivation" rows="4"
+                                placeholder="Ceritakan motivasi Anda bergabung dengan BMFTI..." required></textarea>
+                            <span class="error-message" id="motivationError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-item terms-checkbox">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <span class="checkmark"></span>
+                                Saya menyetujui <a href="#" class="terms-link">syarat dan ketentuan</a> yang berlaku
+                            </label>
+                            <span class="error-message" id="termsError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Daftar Sekarang
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzQjgyRjYiLz4KPHRleHQgeD0iMjAiIHk9IjI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iYm9sZCI+Qk08L3RleHQ+Cjwvc3ZnPgo="
+                            alt="BMFTI Logo">
+                        <span>BMFTI</span>
+                    </div>
+                    <p>Badan Mahasiswa Fakultas Teknologi Informasi - Membangun masa depan teknologi bersama.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#organization">Struktur Organisasi</a></li>
+                        <li><a href="#events">Kegiatan</a></li>
+                        <li><a href="#register">Pendaftaran</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Teknologi No. 123, Jakarta</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+62 21 1234 5678</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@bmfti.ac.id</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan update terbaru tentang kegiatan BMFTI</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 BMFTI. All rights reserved. Made by BMFTI Tech Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-check-circle success-icon"></i>
+                <h3>Pendaftaran Berhasil!</h3>
+            </div>
+            <div class="modal-body">
+                <p>Terima kasih telah mendaftar di BMFTI. Kami akan menghubungi Anda melalui email dalam 2-3 hari kerja.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="closeModal()">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
