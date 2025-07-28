@@ -2,18 +2,16 @@ BMFTI - Website Organisasi Mahasiswa
 Website resmi Badan Mahasiswa Fakultas Teknologi Informasi (BMFTI) - sebuah platform modern dan responsif untuk organisasi mahasiswa teknologi informasi.
 
 🚀 Cara Menjalankan Proyek :
+
 Method 1: Klik link domain vercel yang telah dideploy
 🌐 Live Demo : https://bmfti-organisasi-mahasiswa-teknolog.vercel.app/
 
 Method 2: Langsung di browser secara manual
-Download/Clone repository : git clone (https://github.com/DevanyAguslia/DevanyAguslia-BMFTI_organisasi_mahasiswa_teknologi.git)
-cd BMFTI_organisasi_mahasiswa_teknologi
-
-Buka file index.html di browser Anda
-
-Double-click file index.html, atau
-Klik kanan → "Open with" → Pilih open with live server/browser
-ps : Download images yang sudah ada di folder assets
+- Download/Clone repository : git clone (https://github.com/DevanyAguslia/DevanyAguslia-BMFTI_organisasi_mahasiswa_teknologi.git)
+- cd BMFTI_organisasi_mahasiswa_teknologi
+- Buka file index.html di browser Anda
+- Double-click file index.html, atau Klik kanan → "Open with" → Pilih open with live server/browser
+- ps : Download images yang sudah ada di folder assets
 
 Method 3 : Download file yang sudah di zip lalu run secara lokal di vscode
 
